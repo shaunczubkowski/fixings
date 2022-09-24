@@ -1,0 +1,22 @@
+@import "../sass/abstracts/variables";
+.Cuisine-Card {
+  color: $color-white;
+  background-color: rgba($color-dark-shade, 0.8);
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 25rem;
+  transition: 1s all;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 1rem 1rem 1rem rgba($color-dark-shade, 0.3);
+  }
+}
