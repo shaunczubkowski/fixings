@@ -1,0 +1,17 @@
+.Cuisines {
+  display: block;
+  margin: 0 auto;
+
+  &__title {
+    margin: 3rem 0 3rem 16.5rem;
+    font-size: 2rem;
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+}
