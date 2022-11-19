@@ -1,0 +1,12 @@
+@import "../sass/abstracts/variables";
+
+.Logo {
+  color: $color-primary;
+  font-size: 4rem;
+  border-left: 0.8rem solid $color-dark-shade;
+  padding-left: 0.5rem;
+
+  &__period {
+    color: $color-dark-shade;
+  }
+}
