@@ -1,7 +1,9 @@
+import { Cuisines } from "../components/Cuisines";
+
 export function Home() {
   return (
     <>
-      <h1>Hello HOME</h1>
+      <Cuisines />
     </>
   );
 }

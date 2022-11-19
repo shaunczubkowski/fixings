@@ -1,9 +1,12 @@
+import "./Layout.scss";
 import { Outlet, Link } from "react-router-dom";
+import { Logo } from "../components/Logo";
 
 export function Layout() {
   return (
-    <>
+    <div className="Layout">
       <header>
+        <Logo />
         <nav>
           <ul>
             <li>
@@ -18,6 +21,6 @@ export function Layout() {
       <main>
         <Outlet />
       </main>
-    </>
+    </div>
   );
 }
